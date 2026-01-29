@@ -1,6 +1,6 @@
 
 
-.collage-1 {
+.collage {
     width:1269px;
     display: grid;
     margin: auto;
@@ -37,14 +37,18 @@ h1 {
 
 footer nav {
     width: 1269px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
+    align-items: center;
+    justify-items: center;
     margin: 0 auto;
     margin-top:50px;
     padding: 20px 0;
 }
 
 .nav-btn {
+    width:100px;
     border-radius: 20px;
     background-color:whitesmoke;
     color: black;
