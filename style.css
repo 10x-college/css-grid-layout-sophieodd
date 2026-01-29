@@ -63,3 +63,36 @@ footer nav {
     background-color: #f0e6d2;
     transform: scale(1.05);
 }
+
+
+.card2c img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2c{
+  height: 200px;
+  transition: transform 0.25s ease-out;
+  grid-column: span 2;
+}
+
+.card2c:hover{
+    transform: scale(1.03);
+}
+
+.card2r img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2r{
+  width:300px;
+  transition: transform 0.25s ease-out;
+  grid-row: span 2;
+}
+
+.card2r:hover{
+    transform: scale(1.03);
+}
