@@ -74,16 +74,6 @@ footer nav {
   grid-row: span 2;
 }
 
-.collage3 {
-    width:1269px;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 200px;
-    gap: 23px;
-    align-items: center;
-}
-
 .alt {
     font-weight:200;
 }
@@ -103,7 +93,6 @@ footer nav {
 .fifth {
   grid-column-end:-2;
 }
-
 
 .collage4 {
     display: grid;
