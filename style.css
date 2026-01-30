@@ -66,13 +66,6 @@ footer nav {
     transform: scale(1.05);
 }
 
-
-.card2c img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .card2c{
   height: 200px;
   transition: transform 0.25s ease-out;
@@ -203,6 +196,7 @@ footer nav {
     margin-left: -100px;
     gap: 20px;
     justify-content: flex-start;
+    position: relative;
 }
 
 .collage4-item {
@@ -236,12 +230,7 @@ footer nav {
     grid-column: span 2;
     padding-left:120px;
 }
-.collage4-item-column {
-  width:300px;
-  height: 200px;
-  overflow: hidden;
-  transition: transform 0.25s ease-out;
-  box-shadow: 5px 4px 5px 0px #AC9D8D;
+.column {
   grid-column-end:-1;
 }
 
@@ -371,4 +360,13 @@ footer nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.divider {
+  position: absolute;
+  top: 0;
+  left: 60.5%;
+  width: 1px; 
+  height: 100%;
+  background:black;
 }
